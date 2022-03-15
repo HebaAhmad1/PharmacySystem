@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacySystem.Web", "PharmacySystem\PharmacySystem.Web.csproj", "{F68DDC66-CB5C-44A3-9DF6-16D3C842B339}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{12DE722E-999D-4963-A73E-C2063D659FA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{F2E06429-06BE-4B94-AB9E-7CC7ECFC867C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy.Data", "Pharmacy.Data\Pharmacy.Data.csproj", "{D3560FBA-ECFC-4A18-9A1F-E629B5F09039}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmacy.Services", "Pharmacy.Services\Pharmacy.Services.csproj", "{D84A7907-8091-40B3-9B84-A43EB84828E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacyAPI", "Pharmacy.API\PharmacyAPI.csproj", "{3813E6FA-BEED-47C2-9DE9-8C5ECFE55377}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F68DDC66-CB5C-44A3-9DF6-16D3C842B339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68DDC66-CB5C-44A3-9DF6-16D3C842B339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68DDC66-CB5C-44A3-9DF6-16D3C842B339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68DDC66-CB5C-44A3-9DF6-16D3C842B339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3560FBA-ECFC-4A18-9A1F-E629B5F09039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3560FBA-ECFC-4A18-9A1F-E629B5F09039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3560FBA-ECFC-4A18-9A1F-E629B5F09039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3560FBA-ECFC-4A18-9A1F-E629B5F09039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D84A7907-8091-40B3-9B84-A43EB84828E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D84A7907-8091-40B3-9B84-A43EB84828E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D84A7907-8091-40B3-9B84-A43EB84828E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D84A7907-8091-40B3-9B84-A43EB84828E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3813E6FA-BEED-47C2-9DE9-8C5ECFE55377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3813E6FA-BEED-47C2-9DE9-8C5ECFE55377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3813E6FA-BEED-47C2-9DE9-8C5ECFE55377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3813E6FA-BEED-47C2-9DE9-8C5ECFE55377}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F68DDC66-CB5C-44A3-9DF6-16D3C842B339} = {F2E06429-06BE-4B94-AB9E-7CC7ECFC867C}
+		{D3560FBA-ECFC-4A18-9A1F-E629B5F09039} = {12DE722E-999D-4963-A73E-C2063D659FA3}
+		{D84A7907-8091-40B3-9B84-A43EB84828E8} = {12DE722E-999D-4963-A73E-C2063D659FA3}
+		{3813E6FA-BEED-47C2-9DE9-8C5ECFE55377} = {F2E06429-06BE-4B94-AB9E-7CC7ECFC867C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3000EFB7-A51E-4BC6-8368-77B62CACC51D}
+	EndGlobalSection
+EndGlobal
